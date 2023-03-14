@@ -15,6 +15,7 @@ export default function Projects() {
           techOne={cloudCreate.techOne}
           techTwo={cloudCreate.techTwo}
           details={cloudCreate.details}
+          tooltipContent='🥉 Third Place in the Cloudinary Hackathon 2023'
         />
         <PortfolioCard
           title={hotely.title}
@@ -23,6 +24,7 @@ export default function Projects() {
           techTwo={hotely.techTwo}
           details={hotely.details}
           url={hotely.url}
+          tooltipContent='🎖 21th Place in the Cohere Midudev Hackathon 2023'
         />
         <PortfolioCard
           title={gatoCraft.title}
