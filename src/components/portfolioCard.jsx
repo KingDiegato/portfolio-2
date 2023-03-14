@@ -34,12 +34,6 @@ export default function PortfolioCard({
   return (
     <>
       <div
-        data-tooltip-id='project-tooltip'
-        data-tooltip-place='right'
-        data-tooltip-content={tooltipContent}
-        data-tooltip-variant='info'
-        data-tooltip-float
-        data-tooltip-delay-show={2}
         className={`${styles.card} rounded-xl relative border-solid border-transparent border-[1px] h-full w-full bg-white bg-opacity-0 before:absolute before:top-0 before:left-0 before:h-full before:w-full before:opacity-0 before:transition-opacity transition-shadow duration-300 before:duration-500 before:content-[''] hover:before:opacity-100 hover:shadow-xl hover:drop-shadow-xl before:z-[3]`}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
@@ -62,6 +56,11 @@ export default function PortfolioCard({
                 href={url || undefined}
                 target='_blank'
                 rel='noreferrer'
+                data-tooltip-id='project-tooltip'
+                data-tooltip-place='right'
+                data-tooltip-content={tooltipContent}
+                data-tooltip-variant='info'
+                data-tooltip-delay-show={2}
               >
                 Site ↗ {emoji || undefined}
               </a>
