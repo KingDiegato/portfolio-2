@@ -12,7 +12,7 @@ export default function AboutMe() {
   return (
     <article id='About-Me' className='flex flex-col items-center my-[4rem]'>
       <h2 className='text-6xl font-bold'>About Me</h2>
-      <section className='flex flex-col lg:flex-row items-center lg:justify-evenly w-full'>
+      <section className='flex flex-col lg:flex-row items-center lg:justify-center lg:gap-36 w-full'>
         <div>
           <p className='text-fuchsia-200 pb-10 pt-5'>
             <strong className='text-4xl sm:text-5xl'>
