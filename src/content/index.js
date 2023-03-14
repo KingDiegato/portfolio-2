@@ -47,7 +47,8 @@ export const gatoCraft = {
   techTwo: 'ThreeJS',
   details: 'A Minecraft Clone for the web made with JavaScript',
   presentation:
-    'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/GatoCraft_Presentation_wpxbgr.jpg'
+    'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/GatoCraft_Presentation_wpxbgr.jpg',
+  url: 'https://my-own-minecraft.vercel.app'
 }
 
 export const owlShop = {
@@ -58,7 +59,8 @@ export const owlShop = {
   techTwo: 'JavaScript',
   details: 'The classic Store and shopping Cart interactive and responsive',
   presentation:
-    'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/Owl_Shop_Presentation_zqpnou.jpg'
+    'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/Owl_Shop_Presentation_zqpnou.jpg',
+  url: 'https://shopping-cart-blush-nu.vercel.app'
 }
 
 export const ticTacToe = {
@@ -69,5 +71,6 @@ export const ticTacToe = {
   techTwo: 'JavaScript',
   details: 'The classic Tic Tac Toe game for the web made with JavaScript',
   presentation:
-    'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/Tic_Tac_Toe_Presentation_vu2t5a'
+    'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/Tic_Tac_Toe_Presentation_vu2t5a',
+  url: 'https://tic-tac-toe-two-black.vercel.app'
 }

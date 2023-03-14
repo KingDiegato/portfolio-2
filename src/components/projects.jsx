@@ -30,6 +30,7 @@ export default function Projects() {
           techOne={gatoCraft.techOne}
           techTwo={gatoCraft.techTwo}
           details={gatoCraft.details}
+          url={gatoCraft.url}
         />
         <PortfolioCard
           title={ticTacToe.title}
@@ -37,6 +38,7 @@ export default function Projects() {
           techOne={ticTacToe.techOne}
           techTwo={ticTacToe.techTwo}
           details={ticTacToe.details}
+          url={ticTacToe.url}
         />
         <PortfolioCard
           title={owlShop.title}
@@ -44,6 +46,7 @@ export default function Projects() {
           techOne={owlShop.techOne}
           techTwo={owlShop.techTwo}
           details={owlShop.details}
+          url={owlShop.url}
         />
       </section>
     </main>
