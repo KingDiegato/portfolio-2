@@ -56,14 +56,19 @@ export default function PortfolioCard({
                 href={url || undefined}
                 target='_blank'
                 rel='noreferrer'
+              >
+                Site ↗{' '}
+              </a>
+              <span
+                className='relative z-10 cursor-default'
                 data-tooltip-id='project-tooltip'
-                data-tooltip-place='right'
+                data-tooltip-place='top'
                 data-tooltip-content={tooltipContent}
                 data-tooltip-variant='info'
                 data-tooltip-delay-show={2}
               >
-                Site ↗ {emoji || undefined}
-              </a>
+                {emoji || undefined}
+              </span>
             </h3>
             <div className='flex justify-center p-5 gap-6'>
               <strong className='text-cyan-200 font-mono'>{techOne}</strong>
