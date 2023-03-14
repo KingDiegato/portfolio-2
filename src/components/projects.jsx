@@ -16,6 +16,7 @@ export default function Projects() {
           techTwo={cloudCreate.techTwo}
           details={cloudCreate.details}
           tooltipContent='🥉 Third Place in the Cloudinary Hackathon 2023'
+          emoji='🥉'
         />
         <PortfolioCard
           title={hotely.title}
@@ -25,6 +26,7 @@ export default function Projects() {
           details={hotely.details}
           url={hotely.url}
           tooltipContent='🎖 21th Place in the Cohere Midudev Hackathon 2023'
+          emoji='🎖'
         />
         <PortfolioCard
           title={gatoCraft.title}
@@ -33,6 +35,7 @@ export default function Projects() {
           techTwo={gatoCraft.techTwo}
           details={gatoCraft.details}
           url={gatoCraft.url}
+          emoji='🟩'
         />
         <PortfolioCard
           title={ticTacToe.title}
@@ -41,6 +44,7 @@ export default function Projects() {
           techTwo={ticTacToe.techTwo}
           details={ticTacToe.details}
           url={ticTacToe.url}
+          emoji='❌⚪'
         />
         <PortfolioCard
           title={owlShop.title}
@@ -49,6 +53,7 @@ export default function Projects() {
           techTwo={owlShop.techTwo}
           details={owlShop.details}
           url={owlShop.url}
+          emoji='🦉'
         />
       </section>
     </main>

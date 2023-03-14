@@ -11,7 +11,8 @@ export default function PortfolioCard({
   details,
   title,
   url,
-  tooltipContent
+  tooltipContent,
+  emoji
 }) {
   function handleMouseMove(el) {
     const target = el.target
@@ -62,7 +63,7 @@ export default function PortfolioCard({
                 target='_blank'
                 rel='noreferrer'
               >
-                Site ↗
+                Site ↗ {emoji || undefined}
               </a>
             </h3>
             <div className='flex justify-center p-5 gap-6'>
