@@ -12,10 +12,10 @@ export default function AboutMe() {
   return (
     <article id='About-Me' className='flex flex-col items-center my-[4rem]'>
       <h2 className='text-6xl font-bold'>About Me</h2>
-      <section className='flex flex-col lg:flex-row items-center justify-evenly w-full'>
+      <section className='flex flex-col lg:flex-row items-center lg:justify-evenly w-full'>
         <div>
-          <p className='text-fuchsia-200 pb-10'>
-            <strong className='text-5xl'>
+          <p className='text-fuchsia-200 pb-10 pt-5'>
+            <strong className='text-4xl sm:text-5xl'>
               Hi! My name is{' '}
               <RoughNotation
                 type='underline'
@@ -28,7 +28,7 @@ export default function AboutMe() {
               </RoughNotation>
             </strong>
           </p>
-          <p className='text-xl max-w-[50ch] pb-10'>
+          <p className='text-xl max-w-[36ch] sm:max-w-[50ch] pb-10'>
             FrontEnd Developer with Strong habilities in{' '}
             <RoughNotation
               show
@@ -51,7 +51,7 @@ export default function AboutMe() {
             in HTML5, CSS3, JavaScript and ReactJS Developed Single Page
             Applications.
           </p>
-          <p className='text-xl max-w-[50ch]'>
+          <p className='text-xl max-w-[36ch] sm:max-w-[50ch]'>
             i'm from Venezuela & 24 years old, i'm a CPA entering in the IT and
             prepared for solve business problems
           </p>
@@ -71,7 +71,7 @@ export default function AboutMe() {
         </figure>
       </section>
       <section className='flex flex-col items-center justify-evenly w-full mt-[4rem]'>
-        <p className='text-xl lg:max-w-[100ch] max-w-[50ch] pb-10'>
+        <p className='text-xl lg:max-w-[100ch] max-w-[36ch] sm:max-w-[50ch] pb-10'>
           In addition to technical skills, i have strong communication and
           collaboration skills,{' '}
           <RoughNotation
@@ -87,7 +87,7 @@ export default function AboutMe() {
           development technologies and trends to learn to create cutting-edge
           websites and applications.
         </p>
-        <p className='text-xl lg:max-w-[100ch] max-w-[50ch] pb-10'>
+        <p className='text-xl lg:max-w-[100ch] max-w-[36ch] sm:max-w-[50ch] pb-10'>
           I'm Trilingual{' '}
           <RoughNotation
             type='underline'

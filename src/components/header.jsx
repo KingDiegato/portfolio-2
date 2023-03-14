@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header className='flex place-items-baseline place-content-evenly py-2 px-16 border-b border-fuchsia-500 w-screen'>
+    <header className='flex flex-col lg:flex-row place-items-baseline place-content-evenly py-2 px-16 border-b border-fuchsia-500 w-screen'>
       <div>
         <div className='absolute w-[400px] z-[-1] h-[120px] left-4 translate-x-72 bg-fuchsia-500 opacity-20 blur-3xl rounded-full' />
         <h2 className='text-purple-100'>Diego Gonzalez Busnego</h2>
         <span className='text-fuchsia-300'>FrontEnd Developer</span>
       </div>
-      <nav className='flex gap-6 evenly text-[calc(0.75rem+0.4vw)]'>
+      <nav className='flex gap-6 line evenly text-[calc(0.75rem+0.4vw)]'>
         <a href='#Projects'>Projects</a>
         <a href='#About-Me'>About Me</a>
         <a href='#Skills'>Skills</a>
