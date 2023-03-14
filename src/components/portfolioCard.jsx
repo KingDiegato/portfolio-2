@@ -40,7 +40,7 @@ export default function PortfolioCard({
         data-tooltip-variant='info'
         data-tooltip-float
         data-tooltip-delay-show={2}
-        className={`${styles.card} rounded-xl relative border-solid border-transparent border-[1px] h-full w-full bg-white bg-opacity-0 before:absolute before:top-0 before:left-0 before:h-full before:w-full before:opacity-0 before:transition-opacity transition-shadow duration-300 before:duration-500 before:content-[''] hover:before:opacity-100 hover:shadow-xl hover:shadow-[#ffffff40] hover:drop-shadow-xl before:z-[3]`}
+        className={`${styles.card} rounded-xl relative border-solid border-transparent border-[1px] h-full w-full bg-white bg-opacity-0 before:absolute before:top-0 before:left-0 before:h-full before:w-full before:opacity-0 before:transition-opacity transition-shadow duration-300 before:duration-500 before:content-[''] hover:before:opacity-100 hover:shadow-xl hover:shadow-[#6e2f2f8a] hover:drop-shadow-xl before:z-[3]`}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
