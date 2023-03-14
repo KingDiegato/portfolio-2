@@ -1,0 +1,43 @@
+.head-img-galery {
+  display: flex;
+  margin: 0;
+}
+
+.head-img-galery img {
+  aspect-ratio: 12/9;
+  object-fit: cover;
+  width: 0;
+  opacity: 0.7;
+
+  filter: blur(100%);
+  flex-grow: 1;
+  height: calc(16rem + 16vw);
+
+  transition: 1s ease;
+}
+
+.head-img-galery img:hover {
+  opacity: 1;
+  width: 8rem;
+  transform: scale(100%);
+  filter: contrast(120%);
+  cursor: crosshair;
+}
+
+@media (min-width: 768px) {
+  .head-img-galery img:hover {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .head-img-galery img:hover {
+    width: 4rem;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .head-img-galery {
+    background-color: black;
+  }
+}
