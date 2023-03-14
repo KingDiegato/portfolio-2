@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header className='flex flex-col lg:flex-row place-items-baseline place-content-evenly py-2 px-16 border-b border-fuchsia-500 w-screen'>
+    <header className='flex sticky flex-col lg:flex-row place-items-baseline place-content-evenly py-2 px-16 border-b border-fuchsia-500 w-screen'>
       <div>
         <div className='absolute w-[400px] z-[-1] h-[120px] left-4 translate-x-72 bg-fuchsia-500 opacity-20 blur-3xl rounded-full' />
         <h2 className='text-purple-100'>Diego Gonzalez Busnego</h2>

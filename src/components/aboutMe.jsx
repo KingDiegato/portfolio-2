@@ -22,7 +22,7 @@ export default function AboutMe() {
                 color='yellow'
                 animationDuration={800}
                 show
-                strokeWidth={3}
+                strokeWidth={2}
               >
                 Diego
               </RoughNotation>
@@ -52,8 +52,8 @@ export default function AboutMe() {
             Applications.
           </p>
           <p className='text-xl max-w-[36ch] sm:max-w-[50ch]'>
-            i'm from Venezuela & 24 years old, i'm a CPA entering in the IT and
-            prepared for solve business problems
+            Actually living in Venezuela & have 24 years old, degree in CPA &
+            entering in the IT and prepared for solve business problems
           </p>
         </div>
         <figure>
@@ -88,7 +88,7 @@ export default function AboutMe() {
           websites and applications.
         </p>
         <p className='text-xl lg:max-w-[100ch] max-w-[36ch] sm:max-w-[50ch] pb-10'>
-          I'm Trilingual{' '}
+          Trilingual:{' '}
           <RoughNotation
             type='underline'
             show
@@ -98,7 +98,7 @@ export default function AboutMe() {
           >
             Spanish [native], Portuguese [native] and english [fluent],
           </RoughNotation>{' '}
-          Currently i'm studying on my own and practicing everyday to improve my
+          Currently Studying on my own and practicing everyday to improve my
           skills
         </p>
       </section>
