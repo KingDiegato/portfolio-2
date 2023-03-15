@@ -95,7 +95,7 @@ export default function AboutMe() {
             type='underline'
             show
             animationDuration={800}
-            color='yellow'
+            color='fuchsia'
             multiline
           >
             Spanish [native], Portuguese [native] and english [fluent],
