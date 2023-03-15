@@ -52,7 +52,7 @@ export default function AboutMe() {
             Applications.
           </p>
           <p className='text-xl max-w-[36ch] sm:max-w-[50ch]'>
-            Actually living in Venezuela & have 24 years old, degree in CPA &
+            Actually living in Venezuela & i'm 24 years old, degree in CPA &
             entering in the IT and prepared for solve business problems
           </p>
         </div>
@@ -72,7 +72,7 @@ export default function AboutMe() {
       </section>
       <section className='flex flex-col items-center justify-evenly w-full mt-[4rem]'>
         <p className='text-xl lg:max-w-[100ch] max-w-[36ch] sm:max-w-[50ch] pb-10'>
-          In addition to technical skills, i have strong communication and
+          In addition to technical skills, have strong communication and
           collaboration skills,{' '}
           <RoughNotation
             type='underline'
