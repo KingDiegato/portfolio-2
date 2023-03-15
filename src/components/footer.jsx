@@ -3,9 +3,8 @@ import CloudinarySvg from '../svg'
 
 export default function Footer() {
   return (
-    <footer className='flex border-t-2 h-[16rem] justify-evenly items-center'>
+    <footer className='flex flex-col-reverse lg:flex-row border-t-2 h-[22rem] lg:h-[16rem] justify-evenly items-center'>
       <div>
-        <h2>This is the Footer</h2>
         <a
           href='https://www.cloudinary.com'
           className='text-xl'
