@@ -34,7 +34,7 @@ export const cloudCreate = {
   techOne: 'Python',
   techTwo: 'Discord',
   details:
-    'It is a long established fact that a reader will be distracted by the readable content',
+    'Discord Bot Made With Python that provide the posibility to transform images on the fly with an in Discord experience',
   presentation:
     'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/Presentation_Cloud_Create_mg1lht.jpg'
 }
