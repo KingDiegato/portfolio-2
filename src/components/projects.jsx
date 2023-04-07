@@ -1,5 +1,12 @@
 import React from 'react'
-import { hotely, cloudCreate, gatoCraft, owlShop, ticTacToe } from '../content'
+import {
+  hotely,
+  cloudCreate,
+  gatoCraft,
+  owlShop,
+  ticTacToe,
+  countrySearch
+} from '../content'
 import PortfolioCard from './portfolioCard'
 
 export default function Projects() {
@@ -35,7 +42,7 @@ export default function Projects() {
           techTwo={gatoCraft.techTwo}
           details={gatoCraft.details}
           url={gatoCraft.url}
-          emoji='🟩'
+          emoji=''
         />
         <PortfolioCard
           title={ticTacToe.title}
@@ -44,7 +51,16 @@ export default function Projects() {
           techTwo={ticTacToe.techTwo}
           details={ticTacToe.details}
           url={ticTacToe.url}
-          emoji='❌⚪'
+          emoji=''
+        />
+        <PortfolioCard
+          title={countrySearch.title}
+          thumbnail={countrySearch.thumbnail}
+          techOne={countrySearch.techOne}
+          techTwo={countrySearch.techTwo}
+          details={countrySearch.details}
+          url={countrySearch.url}
+          emoji=''
         />
         <PortfolioCard
           title={owlShop.title}
@@ -53,7 +69,7 @@ export default function Projects() {
           techTwo={owlShop.techTwo}
           details={owlShop.details}
           url={owlShop.url}
-          emoji='🦉'
+          emoji=''
         />
       </section>
     </main>

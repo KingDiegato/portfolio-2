@@ -74,3 +74,15 @@ export const ticTacToe = {
     'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/Tic_Tac_Toe_Presentation_vu2t5a',
   url: 'https://tic-tac-toe-two-black.vercel.app'
 }
+
+export const countrySearch = {
+  title: 'Country Search',
+  thumbnail:
+    'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/Country_frame_egi0v2',
+  techOne: 'ReactJS',
+  techTwo: 'TypeScript',
+  details: 'A Searcher that contain information of any country in the world',
+  presentation:
+    'https://res.cloudinary.com/diegato/image/upload/q_auto/portfolio/projects/Country_Presentation_bukdz1',
+  url: 'https://country-search-cat.vercel.app'
+}
